@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #00c2bd;
+  &:hover{
+    color: #e91c23;
+  }
+}
+img{
+  max-width: 100%;
+}
+
+@import './assets/scss/header/header.scss'
